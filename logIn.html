@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Multy responsive grocery page</title>
+
+  <!-- GOOGLE FONTS CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Candal&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- BOXICONS CDN LINK -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- SWIPPER JS CDN LINK -->
+  <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+  <!----------- NAVIGATION BAR ---------->
+
+  <header class="header">
+    <a href="index.html" class="logo"><i class='bx bxs-shopping-bag'></i>Grocery</a>
+
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="#features">Features</a>
+      <a href="#products">Products</a>
+      <a href="#category">Categories</a>
+      <a href="#review">Reviews</a>
+      <a href="#blog">Blog</a>
+    </nav>
+
+    <div class="icons">
+      <div class='bx bx-menu' id="menu-btn"></div>
+      <div class='bx bx-search-alt' id="search-btn"></div>
+      <div class='bx bxs-cart' id="cart-btn"></div>
+      <div class="bx bxs-user" id="dropdown"></div>
+    </div>
+
+    <form action="" class="search-form">
+      <input type="search" id="search-box" placeholder="Search here......">
+      <label for="search-box"><i class='bx bx-search-alt-2'></i></label>
+    </form>
+
+    <div class="shopping-cart">
+      <div class="box">
+        <i class='bx bxs-trash' ></i>
+        <img src="Images/fruits5.png" alt="image">
+        <div class="content">
+          <h3>Banana</h3>
+          <span class="price">$4.99/-</span>
+          <span class="quantity">qty : 1/-</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <i class='bx bxs-trash' ></i>
+        <img src="Images/fruits3.png" alt="image">
+        <div class="content">
+          <h3>Pawpaw</h3>
+          <span class="price">$6.99/-</span>
+          <span class="quantity">qty : 3/-</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <i class='bx bxs-trash' ></i>
+        <img src="Images/fruits4.png" alt="image">
+        <div class="content">
+          <h3>Grapes</h3>
+          <span class="price">$10.99/-</span>
+          <span class="quantity">qty : 4/-</span>
+        </div>
+      </div>
+
+      <div class="total">Total : $19.6</div>
+      <a href="checkout.html" class="btn">Check Out</a>
+    </div>
+
+    <div class="dropdown">
+      <a href="dashboard.html">dashboard</a>
+      <a href="logIn.html">LogOut</a>
+    </div>
+
+
+    
+  </header>
+
+  <!-----------END OF  NAVIGATION BAR ---------->
+
+
+
+
+
+
+
+  <!-----------SIGN IN PAGE ---------->
+
+  <section class="signUpForm">
+    <div class="signUp-content">
+      <h2>Sign In Form</h2>
+
+      <form action="#">
+        <input type="text" placeholder="Email or Username">
+        <input type="password" placeholder="password" required>
+      </form>
+      
+      <button type="submit" class="btn">Sign Up</button>
+
+      <a href="signUp.html">Already have an account? Sign Up</a>
+    </div>
+    
+  </section>
+
+
+  <!-----------END OF SIGN IN PAGE ---------->
+
+
+
+
+
+
+
+  <!-----------FOOTER--------->
+
+  <footer>
+    <div class="footer-container">
+      <div class="logo">
+        <a href="#" class="logo">Grocery<i class='bx bxs-shopping-bag'></i></a>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro hic sunt laboriosam perferendis </p>
+
+        <div class="social-links">
+          <a href=""><i class='bx bxl-facebook'></i></a>
+          <a href=""><i class='bx bxl-twitter'></i></a>
+          <a href=""><i class='bx bxl-instagram'></i></a>
+          <a href=""><i class='bx bxl-linkedin'></i></a>
+          <a href=""><i class='bx bxl-youtube'></i></a>
+        </div>
+      </div>
+
+      <div class="contact-info">
+        <h2>Contact Info</h2>
+
+        <a href="#"><i class='bx bxs-phone-call' ></i> +233  247 389 474</a>
+        <a href="#"><i class='bx bxs-phone-call' ></i> +233  269 672 947</a>
+        <a href="#"><i class='bx bx-envelope'></i> dennyson655@gmail.com</a>
+        <a href="#"><i class='bx bxs-edit-location'></i> Ahenema Kokoben</a>
+      </div>
+
+      <div class="quick-links">
+        <h2>Quick links</h2>
+
+        <a href="#"><i class='bx bx-right-arrow-alt'></i>Home</a>
+        <a href="#"><i class='bx bx-right-arrow-alt'></i>Features</a>
+        <a href="#"><i class='bx bx-right-arrow-alt'></i>Products</a>
+        <a href="#"><i class='bx bx-right-arrow-alt'></i>Categories</a>
+        <a href="#"><i class='bx bx-right-arrow-alt'></i>Review</a>
+        <a href="#"><i class='bx bx-right-arrow-alt'></i>Blog</a>
+      </div>
+
+      <div class="news-letter">
+        <h2>Newsletter</h2>
+
+        <p>Subscribe for latest update</p>
+        <input type="email"  id="email" placeholder="your email">
+        <a href="#" class="btn">Subscribe</a>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      created By <span>dennyson web designer</span> |  copyright &copy; All rights reserved 2024
+    </div>
+  </footer>
+
+  <!-----------FOOTER--------->
+
+
+
+   
+  <!-----------JQuery------------------>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!--------SLICK JS CDN------------------>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  
+
+  <!-- CUSTOM SCRIPT LIN -->
+  <script src="js/main.js"></script>
+</body>
+</html>
