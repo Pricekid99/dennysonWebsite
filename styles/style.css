@@ -1071,7 +1071,7 @@ footer .copyright span {
   }
 
   .dashboard-container aside span {
-    display: inline-block;
+    display: flex;
   }
 
   .dashboard-container .dashboard-content table tr th {
